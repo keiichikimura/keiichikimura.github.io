@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ポートフォリオ</title>
+  <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.inview-master/jquery.inview.js"></script>
+
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header id="Home">
+		<div id="loader-bg">
+  			<div id="loader">
+				<img src="img/img-loading.gif" width="80" height="80" alt="Now Loading..." />
+    			<p>Now Loading...</p>
+		  	</div>
+		</div>
+		<div class="mv">
+			<nav>
+				<ul class="menu">
+					<li class="menu__bar"><a href="#Home"><span>H</span>ome</a></li>
+					<li class="menu__bar"><a href="#profile"><span>P</span>rofile</a></li>
+					<li class="menu__bar"><a href="#Portofolio"><span>P</span>ortforio</a></li>
+					<li class="menu__bar"><a href="#Blog"><span>B</span>log</a></li>
+					<li class="menu__bar"><a href="#Contact"><span>C</span>ontact</a></li>
+				</ul>
+			</nav>
+			<img src="img/top.png">
+			<p class="scroll">scroll</p>
+			<span class="switch"><div id="triangle"></div>
+			</span>
+		</div>
+
+		<div class="sp-mv">
+			<img src="img/sp-mv.png">
+				<div id="top-head">
+			  <div class="top-head-inner">
+			    <div id="nav-toggle">
+			      <div>
+			        <span></span>
+			        <span></span>
+			        <span></span>
+			      </div>
+			    </div>
+			  </div>
+			  <nav id="global-nav">
+			    <ul>
+			      <li><a href="#Home"><span>H</span>ome</a></li>
+					<li><a href="#profile"><span>P</span>rofile</a></li>
+					<li><a href="#Portofolio"><span>P</span>ortfolio</a></li>
+					<li><a href="#Blog"><span>B</span>log</a></li>
+					<li><a href="#Contact"><span>C</span>ontact</a></li>
+			    </ul>
+			  </nav>
+			</div>
+	</header>
+
+
+	<article>
+		<section id="profile">
+			<h2 class="sub-title">Profile</h2>
+			<div class="box"></div>
+			<div class="name-box">
+				<img class="fadein" src="img/kao.png" alt="kao">
+			</div>
+			<div class="namae">
+				<img class="fadein" src="img/namae.png" alt="namae">
+			</div>
+			<div class="keireki clearfix fadein">
+				<p class="text">誕生日</p>
+				<P class="text2">1995年11月6日　(21歳)</P>
+				<p class="text">出身地</p>
+				<P class="text2">埼玉県狭山市</P>
+				<p class="text">大学</p>
+				<P class="text2">武蔵大学</P>
+				<p class="text">大学で学んだ事</p>
+				<P class="text2">大学では金融を学び、主に会計について勉強しました。
+				根拠に基づく分析を行い、論理的思考を習得しました。</P>
+				<p class="text">長所</p>
+				<P class="text2">冷静　視野が広い　ポジティブ</P>
+				<p class="text">短所</p>
+				<P class="text2">人見知り　優柔不断</P>
+				<p class="text">趣味</p>
+				<P class="text2">フットサル　ドライブ</P>
+				<p class="text">将来の夢</p>
+				<P class="text2"><span class="kinyu">金融</span>×デザイン＝<span class="saikyou">最強デザイナー</span>が方程式になるようなＷＥＢデザイナーになる事。</P>
+			</div>
+		</section>
+
+		<section class="skill fadein">
+			<h2 class="sub-title">Skill</h2>
+			<div class="box"></div>
+				<div class="skillbar clearfix" data-percent="40%">
+					<div class="skillbar-title" style="background: #124e8c;"><span>HTML5</span></div>
+					<div class="skillbar-bar" style="background: #4288d0"></div>
+					<div class="skill-bar-percent">40%</div>
+				</div> 
+				<p class="skill__text">
+					基本的な知識、構造の理解ヘッダーやフッターなどワイヤーフレームを構成する要素を作れる。フォームの作成。</p>
+
+				<div class="skillbar clearfix " data-percent="30%">
+					<div class="skillbar-title" style="background: #124e8c;"><span>CSS3</span></div>
+					<div class="skillbar-bar" style="background: #4288d0;"></div>
+					<div class="skill-bar-percent">30%</div>
+				</div>
+				<p class="skill__text">
+				基本的な知識、構造の理解要素の枠線のデザイン透明度、zーindexなどの変更方法がわかる。要素の背景画像を任意の画像パターンに調整したり、マウスカーソルを各種パターンに変更したりできる。</p>
+			 
+				<div class="skillbar clearfix " data-percent="30%">
+					<div class="skillbar-title" style="background: #124e8c;"><span>jQuery</span></div>
+					<div class="skillbar-bar" style="background: #4288d0"></div>
+					<div class="skill-bar-percent">30%</div>
+				</div> 
+				<p class="skill__text">
+				基本的な知識の理解。フェードアウトなどの簡単なアクション。ＷＥＢサイトに簡単なプラグインの導入。</p>
+				<div class="skillbar clearfix " data-percent="30%">
+					<div class="skillbar-title" style="background: #124e8c;"><span>Design</span></div>
+					<div class="skillbar-bar" style="background: #4288d0;"></div>
+					<div class="skill-bar-percent">30%</div>
+				</div>
+				<p class="skill__text">
+				こなれたＷＥＢデザインを実現するために、フリー素材などを適宜入手しアイコンや背景画像に利用し、デザイン性のあるページを実装することが出来る。ただし、自分で素材を作るのは得意ではない。</p>
+		</section>
+
+		<section id="Portofolio">
+			<h2 class="sub-title">Portfolio</h2>
+			<div class="box"></div>
+					<div class="site1">
+						<img class="fadein" src="img/ha.png" alt="ha">
+						<p class="r-text">佐藤矯正歯科医院<br>--使用技術--<br>html css JQuery Photoshop<br>--制作期間--<br>約1ヶ月<br>--概要--<br>仮想の矯正歯科医院サイトで、ターゲットは新たな顧客獲得を狙いつつ、現在の利用者にも使いやすいようにするということを意識して作成しました。その為色使いを特に意識し安心感や誠実さを表現する為に緑や青を中心に使いました。</p>
+					</div>
+
+					<div class="site2">
+						<img class="fadein" src="img/choko.png" alt="choko">
+						<p class="l-text">顔面チョコ<br>--使用技術--<br>html css<br>--制作期間--<br>約1週間<br>--概要--<br>初めての制作物かつグループ制作で私はメインビジュアルとフッターを担当しました。特に今回は若い女性をターゲットにした為、いかに女性がこのサイトを見て購買意欲が湧くかを意識して作りました。</p>
+					</div>
+
+					<div class="site3">
+						<img class="fadein" src="img/sopa.png" alt="sora">
+						<p class="r-text">夜空</p>
+					</div>
+
+					<div class="site4">
+						<img class="fadein" src="img/dai.png" alt="dai">		
+						<p class="l-text">朝焼け</p>
+					</div>
+				</div>
+		</section>
+
+		<section id="Blog">
+			<h2 class="sub-title">Blog</h2>
+			<div class="box"></div>
+				<div class="Blog-card fadein">
+					<img src="img/car.png" alt="car">
+					<h3 class="Blog__title">先日</h3>
+					<p class="Blog__day">2016/10/25   カテゴリー：ドライブ　　コメント：4</p>
+					<p class="Blog__text">皆さん、こんにちは。すっかり秋らしくなって肌寒い日が続いていますね。さて、今回は先日久々にドライブをしたことについての記事を書いていこうと思います。...<span class="Blog__end"><a href="#">続きを見る。</a></span></p>
+				</div>
+
+				<div class="Blog-card fadein">
+					<img src="img/kouen.JPG" alt="park">
+					<h3 class="Blog__title">久しぶりに</h3>
+					<p class="Blog__day">2016/9/17   カテゴリー：散歩　　コメント：1</p>
+					<p class="Blog__text">皆さん、こんにちは。最近増量中の木村です（笑）さて、今回は、久しぶりに近所を散歩をして、そこで発見したことについて書いていきたいと思います。ここ最近近所を散歩していなかったので...<span class="Blog__end"><a href="">続きを見る。</a></span></p>
+				</div>
+
+				<div class="Blog-card fadein">
+					<img src="img/umi.png" alt="umi">
+					<h3 class="Blog__title">夏休み</h3>
+					<p class="Blog__day">2016/8/15   カテゴリー：夏休み　　コメント：3</p>
+					<p class="Blog__text">皆さん、こんにちは。前回の投稿から少し時間が空きましたが、引き続き更新していくのでよろしくお願いします！さて、今回は夏休みという事で海に行ってきました。今回行った場所は...<span class="Blog__end"><a href="#">続きを見る。</a></span></p>
+				</div>
+
+				<div class="Blog-card fadein">
+					<img src="img/sakura.png" alt="sakura">
+					<h3 class="Blog__title">絶好のお花見日和</h3>
+					<p class="Blog__day">2016/4/2   カテゴリー：サークル　　コメント：2</p>
+					<p class="Blog__text">皆さん、こんにちは。武蔵大学3年の木村です。ようやく暖かくなってきて本格的な春を感じます。今回は私の所属するサークルのイベントで行ってきた花見について紹介...<span class="Blog__end"><a href="#">続きを見る。</a></span></p>
+				</div>
+		</section>
+
+		<section id="Contact">
+			<h2 class="sub-title">Contact</h2>
+			<div class="box"></div>
+			<div class = "frame fadein">
+				<div id = "button_open_envelope">
+				<p class="email">Email me</p>
+				</div>
+				<div class = "message">
+				<form method="post" action="contact.php">
+					<input type="text" name="name" id="name" placeholder=" Name* " required>
+			
+					<input type="email" name="email" id="email" placeholder=" Email* " required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$">
+				
+					<input type="text" name="phone" id="phone" placeholder=" Phone (optional)" autofocus> 
+				
+					<textarea name="message" id="messarea" placeholder=" Message* " required></textarea>
+			
+					<input type="text" name="address" id="address" style="display: none;">
+					<input type="submit" value="Send" id="send">
+				</form>
+				</div>
+				<div class = "bottom"></div>			
+				<div class = "left"></div>
+				<div class = "right"></div>
+				<div class = "top"></div>
+			</div>
+
+	        <div id="cont" class="contact-us">
+	            <div class="overlay">
+	                <div class="container">
+	                    <div  class="contact">
+	                        <form>
+	                            <input class="one" type="text" name="text" placeholder="name">
+	                            <input class="two" type="email" name="email" placeholder="e-mail">
+	                            <input class="three" type="text" name="number" placeholder="phone">
+	                            <input class="four" type="text" name="text" placeholder="city">
+	                            <textarea class="five" placeholder="message"></textarea>
+	                            <div class="click">
+	                                <button>send</button>
+	                                <button>reset</button>
+	                            </div>
+	                        </form>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+		</section>
+	</article>
+
+		<footer>
+			<p class="copyright">copyright  2016  kimura keiichi</p>
+		</footer>
+		<p id="page-top"><a href="#wrap">PAGE TOP</a></p>
+</body>
+</html>
